@@ -41,3 +41,5 @@ test 4:
 
 test 5:
 	add --region
+
+test 6:
