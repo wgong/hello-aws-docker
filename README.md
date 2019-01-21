@@ -23,4 +23,7 @@ Build and run using Docker Compose:
 
 Hello world!
 
-## first attempt 2019-01-20
+## Test
+
+first attempt 2019-01-20
+2nd test: cluster name was wrong, should be "getting-started"
