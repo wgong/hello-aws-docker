@@ -38,3 +38,6 @@ ${DOCKER_LOGIN}
 
 test 4:
 	aws config on jenkins docker
+
+test 5:
+	add --region
