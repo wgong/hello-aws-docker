@@ -25,13 +25,16 @@ Hello world!
 
 ## Test
 
-1st test: 
+test 1: 
 	2019-01-20
-2nd test: 
+test 2: 
 	cluster name was wrong, should be "getting-started"
-3rd test:
+test 3:
 	step 7.1.i (https://docs.aws.amazon.com/AWSGettingStartedContinuousDeliveryPipeline/latest/GettingStarted/CICD_Jenkins_Pipeline.html) is wrong
 #!/bin/bash
 ## DOCKER_LOGIN=`aws ecr get-login --region us-west-2`
 DOCKER_LOGIN=`aws ecr get-login --no-include-email`
 ${DOCKER_LOGIN}
+
+test 4:
+	aws config on jenkins docker
