@@ -45,3 +45,6 @@ Hello world!
 
 * test 6:
 	hit issue - https://issues.jenkins-ci.org/browse/JENKINS-41020
+
+* test 9:
+	did lots of troubleshooting (/home/devopsgong/GitHub/hello-aws-docker/tmp/create-service.md)
