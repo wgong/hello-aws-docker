@@ -48,3 +48,6 @@ Hello world!
 
 * test 9:
 	did lots of troubleshooting (/home/devopsgong/GitHub/hello-aws-docker/tmp/create-service.md)
+
+* test 10:
+	add shell script to build and publish docker image (not using plugin)
