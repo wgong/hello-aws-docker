@@ -23,6 +23,9 @@ Build and run using Docker Compose:
 
 Hello world!
 
+## Docs
+add Insight week #2 demo slides 
+
 ## Test
 
 * test 1: 
