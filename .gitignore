@@ -2,3 +2,5 @@
 *.jpeg
 my.README.md
 tmp/*
+docs/*.JPG
+docs/*.pptx
