@@ -17,8 +17,10 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:" AWS Docker - 6th Demo ")."!"; ?></h1>
+	<h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" AWS Docker - 6th Demo ")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
+
+        <h3>Time is <?php echo date(DATE_RFC822); ?></h3>
 	<?php
 	$links = [];
 	foreach($_ENV as $key => $value) {
