@@ -60,3 +60,6 @@ add Insight week #2 demo slides
 
 * test 10:
 	add shell script to build and publish docker image (not using plugin)
+
+* test 11:
+	random test
