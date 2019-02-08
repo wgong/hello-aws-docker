@@ -23,6 +23,26 @@ Build and run using Docker Compose:
 
 Hello world!
 
+## Insight Demo - Continuous Delivery
+
+```
+
+```
+
+login to devopsgong@osboxes:
+$ cd ~/GitHub/hello-aws-docker
+
+$ vi www/index.php   # change company name
+
+$ git status
+
+$ git add .; git commit -m "update index.php"; git push
+
+to view Jenkins job log at http://jenkins.s8s.cloud/blue/organizations/jenkins/hello-aws-docker-git/activity
+
+view docker cloud homepage at http://hello.s8s.cloud/
+
+
 ## TROUBLESHOOT
 
 see ./tmp/create-service.md

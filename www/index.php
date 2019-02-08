@@ -17,12 +17,12 @@
 </head>
 <body>
 	<img id="logo" src="logo.png" />
-	<h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" AWS Docker Cloud")."!"; ?></h1>
-	<?php if($_ENV["HOSTNAME"]) {?><h3>Docker hostname: <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
+<h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" AWS Docker Cloud")."!"; ?></h1>
+<?php if($_ENV["HOSTNAME"]) {?><h2>Docker hostname: <?php echo $_ENV["HOSTNAME"]; ?></h2><?php } ?>
 
-        <h3>EST time: <?php date_default_timezone_set('America/New_York'); echo date(DATE_RFC822); ?></h3>
+<h2>Time: <?php date_default_timezone_set('America/New_York'); echo date(DATE_RFC822); ?> (EST) </h2>
 
-		<h3>Company visit: <font color=red> Insight </font> </h3>
+<h2>Company visit: <font color=red> NY Time</font> </h2>
 
 <?php
 	$links = [];
