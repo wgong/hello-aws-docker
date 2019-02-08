@@ -22,7 +22,7 @@
 
         <h3>EST time: <?php date_default_timezone_set('America/New_York'); echo date(DATE_RFC822); ?></h3>
 
-		<h3>Company visit: <font color=red>GSK</font> </h3>
+		<h3>Company visit: <font color=red> Insight </font> </h3>
 
 <?php
 	$links = [];
