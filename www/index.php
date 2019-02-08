@@ -20,8 +20,11 @@
 	<h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" AWS Docker Cloud")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My docker hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 
-        <h3>Current time is <?php echo date(DATE_RFC822); ?></h3>
-	<?php
+        <h3>EST time is <?php date_default_timezone_set('America/New_York'); echo date(DATE_RFC822); ?></h3>
+
+		<h3>Company visit: GSK </h3>
+
+<?php
 	$links = [];
 	foreach($_ENV as $key => $value) {
 		if(preg_match("/^(.*)_PORT_([0-9]*)_(TCP|UDP)$/", $key, $matches)) {
