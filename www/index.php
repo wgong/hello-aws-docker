@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Hello world!</title>
+	<title>Hello Demo</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<style>
 	body {
@@ -16,7 +16,7 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="devops1.png" />
+	<img id="logo" src="./devops1.png" />
 <h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" Insight DevOps Demo")."!"; ?></h1>
 <?php if($_ENV["HOSTNAME"]) {?><h2>Docker hostname: <?php echo $_ENV["HOSTNAME"]; ?></h2><?php } ?>
 
