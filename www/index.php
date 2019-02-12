@@ -16,13 +16,13 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="./devops2.png" />
+	<img id="logo" src="./devops1.png" />
 <h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" DevOps Demo")."!"; ?></h1>
 <?php if($_ENV["HOSTNAME"]) {?><h2>Docker hostname: <?php echo $_ENV["HOSTNAME"]; ?></h2><?php } ?>
 
 <h2>Time: <?php date_default_timezone_set('America/New_York'); echo date(DATE_RFC822); ?> (EST) </h2>
 
-<h2>Company name: <font color=red> Insight Data Science</font> </h2>
+<h2>Company name: <font color=red> Insight DevOps</font> </h2>
 
 <?php
 	$links = [];
