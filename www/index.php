@@ -16,13 +16,13 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="logo.png" />
-<h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" AWS Docker Cloud")."!"; ?></h1>
+	<img id="logo" src="devops1.png" />
+<h1><?php echo "Welcome to ".($_ENV["NAME"]?$_ENV["NAME"]:" Insight DevOps Demo")."!"; ?></h1>
 <?php if($_ENV["HOSTNAME"]) {?><h2>Docker hostname: <?php echo $_ENV["HOSTNAME"]; ?></h2><?php } ?>
 
 <h2>Time: <?php date_default_timezone_set('America/New_York'); echo date(DATE_RFC822); ?> (EST) </h2>
 
-<h2>Company visit: <font color=red> NY Time</font> </h2>
+<h2>Company visit: <font color=red> ABC Inc</font> </h2>
 
 <?php
 	$links = [];
