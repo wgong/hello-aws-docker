@@ -81,6 +81,7 @@ add Insight week #2 demo slides
 
 * test 10:
 	add shell script to build and publish docker image (not using plugin)
+        workaround - jenkins-build.sh 
 
 * test 11:
 	random test
